@@ -14,7 +14,6 @@
 	\textheight=700px									% Saving trees ;-) 
 \usepackage{url}										% Clickable URL's
 \usepackage{wrapfig}									% Wrap text along figures
-
 \frenchspacing									% Better looking spacings after periods
 \pagestyle{empty}								% No pagenumbers/headers/footers
 %\usepackage{bbding}									% Symbols
@@ -22,12 +21,10 @@
 %%% Custom sectioning (sectsty package)
 %%% ------------------------------------------------------------
 \usepackage{sectsty}							% Custom sectioning (see below)
-
 \sectionfont{%									% Change font of \section command
 	\usefont{OT1}{phv}{b}{n}%					% bch-b-n: CharterBT-Bold font
 	\sectionrule{0pt}{0pt}{-5pt}{3pt}
 	}
-
 %%% Macros
 %%% ------------------------------------------------------------
 \newlength{\spacebox}
@@ -73,48 +70,35 @@
 		\noindent \textit{#3} \par					% Company
 		\noindent\hangindent=2em\hangafter=0 \small #4 	% Description
 		\normalsize \par}
-
-
-
 %%% ------------------------------------------------------------
 %%% BEGIN DOCUMENT
 %%% ------------------------------------------------------------
 \begin{document}
 \begin{wrapfigure}{l}{0.5\textwidth}
 	\vspace*{-2em}
-		%\includegraphics[width=0.15\textwidth]{photo}
+%\includegraphics[width=0.15\textwidth]{photo}
 \end{wrapfigure}
-
 \MyName{Jean Pierre Duchens Durán}
 \MySlogan{Curriculum Vitae}
-
 \sepspace
-
 %%% Personal details
 %%% ---------------------------------------------------$  $---------
 \NewPart{Datos Personales}{}
-
 \PersonalEntry{F. de nacimiento: }{4 de Diciembre de 1986} 
 \PersonalEntry{Domicilio:}{Pantaleón Vélez #1018, Independencia}
 \PersonalEntry{Teléfono:}{777 086 72}
 \PersonalEntry{Mail:}{\url{Duchens.jean@gmail.com }}
-
 %%% Education
 %%% ------------------------------------------------------------
 \NewPart{Educación}{} 
-
 \EducationEntry{Ingeniería en Informática}{2006 - 2011}{Universidad Tecnológica Metropolitana}
 {Egreso  2011 - Titulado}
 {\textbf{*}Aprobado con Distinción }
-
 \sepspace
-
 \EducationEntry{Licenciatura en Ciencias de la Ingeniería}{2006 - 2010}{Universidad Tecnológica Metropolitana}
-
 %%% Skills
 %%% ------------------------------------------------------------
 \NewPart{Habilidades}{}
-
 \SkillsEntry{\textbf{Lenguajes}}{OOP (General): Java EE*, Java SE, PHP, C++, ColdFusion}
 \sepspace
 \SkillsEntry{\textbf{*}}{Java EE: MVC,  JSP,  JSF 2, EJB 3.1, JPA 2, CDI, Web Services}
@@ -143,54 +127,28 @@
 \SkillsEntry{\textbf{Otras}}{1. Conocimientos de Matemáticas y Administración:}
 \SkillsEntry{}{ 1.1 Estadística, Probabilística, Determinación de Variables y rangos}
 \SkillsEntry{}{1.2 Análisis y Resolución de Problemas; Evaluación de Proyectos}
-<<<<<<< HEAD
-
-
-=======
- 
->>>>>>> c93064949001aba4cabbc8d59cd9818baaadae5b
 %%% Work experience
 %%% ------------------------------------------------------------
 \NewPart{Experiencia Laboral}{}
-
 \EducationEntry{Ingeniero-Desarrollador}{Sep - 2012 -- a la fecha}{www.trabajando.com,  Full-time}{Desarrollador web para  www.trabajando.com}
-
 \sepspace
-
 \EducationEntry{Ingeniero-Desarrollador}{ago-sep-2012}{Remaq,  Part-time (Independiente)}{Diseño, desarrollo e implementación de sitio web www.remaq.cl}
-
 \sepspace
-
 \EducationEntry{Ingeniero de Proyecto}{ene-mar-2012}{Claro Chile,  Full-time (Trabajo de Titulación)}{Desarrollo de Sitio SharePoint para la Intranet del Centro de Operaciones de Redes.}
-
 \sepspace
-
 \EducationEntry{Ingeniero-Desarrollador}{ago-nov-2011}{Maestra, Externo}{Desarrollo de Sistema de Servicio al Cliente para la intranet.}
-
 \sepspace
-
 \EducationEntry{Soporte STM}{ene-feb-2011}{ETICSA – Banco de Crédito e Inversiones (BCI), Full-time (Práctica)}{Práctica profesional en el área de soporte y telecomunicaciones.}
-
- 
 \sepspace
-
 \EducationEntry{Soporte Informático}{2011}{Difusión UTEM., Part-time}{Soporte informático para la Universidad Tecnológica Metropolitana en el área de Difusión.}
-
 \sepspace
-
 \EducationEntry{Administrador}{2007 - 2008}{Luis Orellana O., Part-time}{Administración de bodega mediante Microsoft Excel y diseño de un SIA.}
-
-
 \sepspace
-
 \EducationEntry{Clases Particulares}{2006 - 2007}{Independiente, Part-time}{Desempeño como profesor particular impartiendo  clases de matemáticas, física de nivel PSU y universitario. }
-
 %%% References
 %%% ------------------------------------------------------------
 \NewPart{Anexos}{}
 \textbf{Dirección web: \hspace{0.6cm}   \url{github.com/Duchens}}
-
 \sepspace
-
 \textbf{Dirección web:  \hspace{0.6cm}  \url{prezi.com/1cb8qlzhz9qg/tesis}}
 \end{document}
